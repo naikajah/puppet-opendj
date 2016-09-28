@@ -1,0 +1,11 @@
+version: 1
+
+dn: dc=example,dc=service,dc=gov,dc=uk
+objectClass: domain
+objectClass: top
+dc: service
+
+dn: ou=Users,dc=example,dc=service,dc=gov,dc=uk
+objectClass: organizationalunit
+objectClass: top
+ou: Users 

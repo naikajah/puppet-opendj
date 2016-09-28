@@ -1,0 +1,42 @@
+# OpenDJ Properties file for installation using Puppet!
+# It's a puppet!
+
+<%- if @baseDN -%>baseDN                        =<%= @baseDN %>
+<%- end -%>
+<%- if @ldapPort -%>ldapPort                      =<%= @ldapPort %>
+<%- end -%>
+<%- if @adminConnectorPort -%>adminConnectorPort            =<%= @adminConnectorPort %>
+<%- end -%>
+<%- if @rootUserDN -%>rootUserDN                    =<%= @rootUserDN %>
+<%- end -%>
+<%- if @rootUserPassword -%>rootUserPassword              =<%= @rootUserPassword %>
+<%- end -%>
+<%- if @doNotStart -%>doNotStart                    =<%= @doNotStart %>
+<%- end -%>
+<%- if @enableStartTLS -%>enableStartTLS                =<%= @doNotStart %>
+<%- end -%>
+<%- if @ldapsPort -%>ldapsPort                     =<%= @ldapsPort %>
+<%- end -%>
+<%- if @generateSelfSignedCertificate -%>generateSelfSignedCertificate =<%= @generateSelfSignedCertificate %>
+<%- end -%>
+<%- if @hostName -%>hostName                      =<%= @hostName %>
+<%- end -%>
+<%- if @usePkcs11Keystore -%>usePkcs11Keystore             =<%= @usePkcs11Keystore %>
+<%- end -%>
+<%- if @useJavaKeystore -%>useJavaKeystore               =<%= @useJavaKeystore %>
+<%- end -%>
+<%- if @useJCEKS -%>useJCEKS                      =<%= @useJCEKS %>
+<%- end -%>
+<%- if @usePkcs12keyStore -%>usePkcs12keyStore             =<%= @usePkcs12keyStore %>
+<%- end -%>
+<%- if @keyStorePassword -%>keyStorePassword              =<%= @keyStorePassword %>
+<%- end -%>
+<%- if @keyStorePasswordFile -%>keyStorePasswordFile          =<%= @keyStorePasswordFile %>
+<%- end -%>
+<%- if @certNickname -%>certNickname                  =<%= @certNickname %>
+<%- end -%>
+<%- if @acceptLicense -%>acceptLicense                 =<%= @acceptLicense %>
+<%- end -%>
+<%- if @ldifFile -%>ldifFile                      =<%= @opendjDir %><%= @ldifFile %>
+<%- end -%>
+

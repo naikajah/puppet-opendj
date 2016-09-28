@@ -1,0 +1,16 @@
+{
+  "name": "puppet-opendj",
+  "version": "0.1.0",
+  "author": "Kainos",
+  "summary": "a module to install and configure opendj for any environment",
+  "license": "Apache 2.0",
+  "source": "",
+  "project_page": null,
+  "issues_url": null,
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_range": ">= 3.2.0"
+    }
+  ]
+}
