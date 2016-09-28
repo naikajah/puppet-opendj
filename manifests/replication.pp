@@ -4,7 +4,7 @@
 #
 class puppet-opendj::replication inherits puppet-opendj::params {
 
-  $dsreplication = "/opt/opendj/bin/dsreplication --adminUID ${rootUserDN} --adminPassword ${rootUserPassword} -X -n"
+  $dsreplication = "/opt/opendj/bin/dsreplication --adminUID admin --adminPassword ${adminPassword} -X -n"
 
   if ($opendj_master  != undef and $hostName != $opendj_master) {
 

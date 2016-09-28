@@ -9,6 +9,7 @@ class puppet-opendj::params {
   $replicationPort                = 8989
   $rootUserDN                     = "cn=Directory\\ Manager"
   $rootUserPassword               = "passwordfromhell"
+  $adminPassword                  = "passwordfromheaven"
   $doNotStart                     = true
   $enableStartTLS                 = true
   $ldapsPort                      = 636
